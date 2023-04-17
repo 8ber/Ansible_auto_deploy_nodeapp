@@ -1,0 +1,10 @@
+app_name: XXX
+#your app version
+version: X.X.X 
+#your app location
+artifact_location: XXXXX
+#the linux username that will run the node app
+linux_username: "{{app_name}}"
+
+user_home_dir: /home/{{linux_username}}
+
